@@ -111,15 +111,9 @@ nav .menu a{
     padding: 131px 156px;
 }
 #about .about-container .about-info{
-    display: flex;
-    justify-content: space-around;
-}
-.about-info .info-card p{
-          font-size: 20px;
-    margin-bottom: 30px;
-    line-height: 30px;
-    color: #757575;
-}
-.about-info .info-card h4{
-    font-size: 20px;
+       display: flex;
+    justify-content: space-between; 
+    gap: 30px;
+    flex-wrap: wrap;
+    
 }
